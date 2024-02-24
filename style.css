@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 0.7rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: hsl(216, 12%, 8%);
+  width: 30%;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.icon-star {
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.rating {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  cursor: pointer;
+}
+
+.rating:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.rating:active {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+#submit {
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
