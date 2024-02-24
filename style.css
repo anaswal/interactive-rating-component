@@ -63,11 +63,6 @@ p {
   color: white;
 }
 
-.rating:active {
-  background-color: hsl(25, 97%, 53%);
-  color: white;
-}
-
 #submit {
   width: 100%;
   padding: 1rem 0;
@@ -81,4 +76,21 @@ p {
 #submit:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
+}
+
+.result {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#number-rating {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  width: 50%;
+  border-radius: 2rem;
 }
